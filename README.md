@@ -4,6 +4,7 @@ jHTMLToMd
 java版的HTML转换为Markdown文件工具
 author robin chia
 -------
+基于[https://github.com/pnikosis/jHTML2Md](https://github.com/pnikosis/jHTML2Md)项目修改而来
 
 使用方法：
 
