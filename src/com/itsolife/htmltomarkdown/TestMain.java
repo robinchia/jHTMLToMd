@@ -14,11 +14,10 @@ public class TestMain {
 	public static void main(String[] args) {
 		URL url;
 		try {
-			url = new URL("http://en.wikipedia.org/wiki/Text_editor");
 			url = new URL("http://www.rockpapershotgun.com/2013/12/02/wot-i-think-journey-of-a-roach/");
 			String parsedtext = HtmlToMd.convert(url, 30000);
 			System.out.println(parsedtext);
-			String pathfile = "/var/www/html/wiznote/工具文章/推荐给开发人员的实用命令行工具.html";
+			String pathfile = "test.html";
 			File f = new File(pathfile);
 			String parsedtext1 = HtmlToMd.convertfile(f, "gbk");
 			System.out.println(parsedtext1);
